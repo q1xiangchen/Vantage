@@ -1,0 +1,27 @@
+# Vantage pipeline + G3T 3D-reconstruction environment (Python 3.11, CUDA 12.4).
+# Install torch first from the matching index, e.g.
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu124
+# then this file (see docs/install.md). It also covers the G3T modules Vantage uses,
+# so G3T's own requirements.txt (training / visualization extras) is not needed.
+aiofiles==24.1.0
+aiohttp==3.12.15
+einops==0.8.2
+h2==4.3.0
+httpx==0.27.2
+huggingface-hub==0.36.2
+langchain-core==0.3.74
+langgraph==0.6.6
+numpy==1.26.4
+openai==1.99.9
+opencv-python==4.11.0.86
+openpyxl==3.1.5
+pandas==2.3.1
+pillow==11.0.0
+protobuf==5.29.5  # ray 2.48 fails on protobuf >= 6
+pyarrow==21.0.0
+ray[serve]==2.48.0
+safetensors==0.8.0
+scipy==1.16.1
+shortuuid==1.0.13
+tqdm==4.67.1
+transformers==4.55.2

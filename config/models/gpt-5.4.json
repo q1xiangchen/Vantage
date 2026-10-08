@@ -1,0 +1,7 @@
+{
+    "model": "gpt-5.4",
+    "base_url": "https://api.openai.com/v1",
+    "sampling": null,
+    "max_tokens": 16384,
+    "answer_prompt_style": "default"
+}

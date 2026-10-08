@@ -1,0 +1,13 @@
+{
+    "model": "OpenGVLab/InternVL3-8B",
+    "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.9
+    },
+    "max_tokens": 16384,
+    "answer_prompt_style": "official",
+    "serve": {
+        "tp": 1,
+        "max_model_len": 32768
+    }
+}

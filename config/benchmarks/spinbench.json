@@ -1,0 +1,8 @@
+{
+    "benchmark": "spinbench",
+    "question_type": [
+        "dynamic_rotation",
+        "dynamic_translation"
+    ],
+    "concurrency": 64
+}

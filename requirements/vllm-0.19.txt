@@ -1,0 +1,5 @@
+# vLLM server for Qwen3.6-27B and Gemma-4-31B (both need vLLM >= 0.19).
+# The paper results were produced with vLLM 0.19.1 (torch 2.10, transformers 5.13).
+vllm==0.19.1
+transformers==5.13.0
+pynvml

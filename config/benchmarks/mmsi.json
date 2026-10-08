@@ -1,0 +1,14 @@
+{
+    "benchmark": "mmsi",
+    "question_type": [
+        "Attribute (Appr.)",
+        "Attribute (Meas.)",
+        "Positional Relationship (Cam.–Cam.)",
+        "Positional Relationship (Cam.–Obj.)",
+        "Positional Relationship (Cam.–Reg.)",
+        "Positional Relationship (Obj.–Obj.)",
+        "Positional Relationship (Obj.–Reg.)",
+        "Positional Relationship (Reg.–Reg.)"
+    ],
+    "concurrency": 24
+}
