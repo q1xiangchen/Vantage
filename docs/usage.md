@@ -68,7 +68,7 @@ the concurrency with `--concurrency N`.
 
 `vantage` mode runs on the same frozen VLM throughout:
 
-**Stage 1 — planning**
+**Stage 1 — analysis and planning**
 1. **Question analysis** (`workflow/nodes/s1_analyst.py`) — analyzes the question
    and the input views: which viewpoint the question is posed from and what
    evidence is missing in this view.
