@@ -1,0 +1,7 @@
+{
+  "model": "sensenova/SenseNova-SI-1.5-InternVL3-8B",
+  "sampling": {"temperature": 0},
+  "max_tokens": 16384,
+  "answer_prompt_style": "official",
+  "serve": {"tp": 1, "max_model_len": 32768}
+}

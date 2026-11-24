@@ -1,0 +1,14 @@
+{
+    "model": "google/gemma-4-31B-it",
+    "sampling": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 64
+    },
+    "max_tokens": 16384,
+    "answer_prompt_style": "default",
+    "serve": {
+        "tp": 2,
+        "max_model_len": 32768
+    }
+}

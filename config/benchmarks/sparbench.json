@@ -1,0 +1,14 @@
+{
+    "benchmark": "sparbench",
+    "question_type": [
+        "camera_motion_infer",
+        "distance_infer_center_oo_mv",
+        "obj_spatial_relation_oc_mv",
+        "obj_spatial_relation_oo_mv",
+        "position_matching",
+        "spatial_imagination_oc_mv",
+        "spatial_imagination_oo_mv"
+    ],
+    "concurrency": 32,
+    "sample_ids_file": "config/subsets/spar_multiview_multichoice_vqa_ids.json"
+}

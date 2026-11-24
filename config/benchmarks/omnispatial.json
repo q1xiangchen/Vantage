@@ -1,0 +1,7 @@
+{
+    "benchmark": "omnispatial",
+    "question_type": [
+        "Perspective_Taking"
+    ],
+    "concurrency": 32
+}

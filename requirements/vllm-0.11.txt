@@ -1,0 +1,8 @@
+# vLLM server for Qwen3-VL-4B/8B and InternVL3-8B. Install with torch 2.8.0+cu128 (e.g. `uv pip install
+# --torch-backend=cu128 -r requirements/vllm-0.11.txt`).
+# transformers must stay on 4.57.x: 5.x breaks vLLM 0.11.0's tokenizer cache.
+vllm==0.11.0
+transformers==4.57.1
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+pynvml

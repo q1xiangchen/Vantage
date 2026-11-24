@@ -1,0 +1,15 @@
+{
+    "model": "Qwen/Qwen3-VL-4B-Instruct",
+    "sampling": {
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "top_k": 20
+    },
+    "max_tokens": 16384,
+    "answer_prompt_style": "official",
+    "serve": {
+        "tp": 1,
+        "max_model_len": 32768,
+        "no_async_scheduling": true
+    }
+}

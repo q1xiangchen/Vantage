@@ -1,0 +1,9 @@
+{
+    "benchmark": "mindcube",
+    "question_type": [
+        "among",
+        "around",
+        "rotation"
+    ],
+    "concurrency": 64
+}

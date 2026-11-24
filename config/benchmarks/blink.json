@@ -1,0 +1,7 @@
+{
+    "benchmark": "blink",
+    "question_type": [
+        "multiview_reasoning"
+    ],
+    "concurrency": 64
+}
